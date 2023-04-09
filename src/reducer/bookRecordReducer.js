@@ -27,6 +27,7 @@ export const bookRecordReducer = (state = bookRecords, action) => {
                     if (book.id === action.payload.id) {
                         book.bookTitle = action.payload.bookTitle
                     }
+                    return book
                 })
             }
 
