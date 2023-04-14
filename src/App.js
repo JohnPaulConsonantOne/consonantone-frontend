@@ -7,7 +7,10 @@ import { PrimaryMainTheme } from "./theme";
 function App() {
   return (
     <div className="App container">
-      <Header />
+      <ThemeProvider theme={PrimaryMainTheme}>
+        <Header />
+        <Sidebar />
+      </ThemeProvider>
     </div>
   );
 }
