@@ -1,0 +1,62 @@
+$white: #fff;
+$primary: #6246EA;
+$text: #141517;
+
+.sidebar {
+    position: absolute;
+    top: 6.125rem;
+    left: 2rem;
+    border-radius: 0.75rem;
+    padding: 3.625rem 0;
+    background-color: $white;
+
+    ul {
+        li {
+            text-align: center;
+            position: relative;
+            padding: 0 1.25rem;
+            margin: 0 0 2.188rem;
+            cursor: pointer;
+
+            a {
+                text-decoration: none;
+                display: block;
+
+                span {
+                    color: $text;
+                    font-size: 0.75rem;
+                    display: block;
+                }
+
+                svg {
+                    color: $text;
+                }
+            }
+
+            &.active {
+                span {
+                    color: $primary;
+                }
+
+                svg {
+                    color: $primary;
+                }
+
+                &::before {
+                    content: "";
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    width: 0.438rem;
+                    height: 100%;
+                    background: linear-gradient(196.99deg, #83DAEC 3.34%, #8075FF 64%);
+                    border-radius: 0px 3px 3px 0px;
+                }
+            }
+
+            &:last-child {
+                margin: 0 0 0;
+            }
+        }
+    }
+}
