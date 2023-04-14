@@ -4,18 +4,18 @@ $text: #141517;
 
 .sidebar {
     position: absolute;
-    top: 6.125rem;
-    left: 2rem;
-    border-radius: 0.75rem;
-    padding: 3.625rem 0;
+    top: 6.125em;
+    left: 2em;
+    border-radius: 0.75em;
+    padding: 3.625em 0;
     background-color: $white;
 
     ul {
         li {
             text-align: center;
             position: relative;
-            padding: 0 1.25rem;
-            margin: 0 0 2.188rem;
+            padding: 0 1.25em;
+            margin: 0 0 2.188em;
             cursor: pointer;
 
             a {
@@ -24,7 +24,7 @@ $text: #141517;
 
                 span {
                     color: $text;
-                    font-size: 0.75rem;
+                    font-size: 0.75em;
                     display: block;
                 }
 
@@ -47,7 +47,7 @@ $text: #141517;
                     position: absolute;
                     top: 0;
                     left: 0;
-                    width: 0.438rem;
+                    width: 0.438em;
                     height: 100%;
                     background: linear-gradient(196.99deg, #83DAEC 3.34%, #8075FF 64%);
                     border-radius: 0px 3px 3px 0px;
