@@ -1,15 +1,10 @@
-$white: #fff;
-$primary: #6246EA;
-$text: #141517;
-
 .sidebar {
     position: sticky;
-    top: em(98px);
-    left: em(32px);
     border-radius: em(12px);
     padding: em(58px) 0;
     background-color: $white;
-    max-width: em(91px);
+    flex-basis: 6%;
+    top: 0;
 
     ul {
         display: flex;
@@ -20,7 +15,7 @@ $text: #141517;
         li {
             text-align: center;
             position: relative;
-            padding: 0 em(20px);
+            padding: 0 em(15px);
 
             cursor: pointer;
 

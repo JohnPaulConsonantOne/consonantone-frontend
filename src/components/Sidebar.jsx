@@ -10,7 +10,7 @@ import { Link } from '@mui/material';
 
 export default function Sidebar() {
     return (
-        <div className='sidebar'>
+        <aside className='sidebar'>
             <ul>
                 <li className='active'>
                     <Link>
@@ -55,6 +55,6 @@ export default function Sidebar() {
                     </Link>
                 </li>
             </ul>
-        </div>
+        </aside>
     )
 }

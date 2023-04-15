@@ -1,3 +1,11 @@
-header{
-    display: flex;
+header {
+    padding: 10px 0;
+    background: #fff;
+    // display: none;
+    .logo {
+        img {
+            height: 55px;
+        }
+
+    }
 }

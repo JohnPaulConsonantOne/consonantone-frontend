@@ -14,7 +14,7 @@ export default function Header() {
                     <div className='logo'>
                         <img src={Logo} alt="logo" />
                     </div>
-                    <form className="search">
+                    {/* <form className="search">
                         <input type="search" placeholder='Search' />
                         <button><img src={searchIcon} alt="search" /></button>
                     </form>
@@ -31,10 +31,12 @@ export default function Header() {
                         <div className="utilities-user utilities-option">
                             <img src={userIcon} alt="user" />
                         </div>
-                    </div>
+                    </div> */}
                 </div>
-
             </div>
+
+
+
 
         </header>
     )

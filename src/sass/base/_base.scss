@@ -1,21 +1,51 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap');
 
-img {
-    max-width: 100%;
+* {
+    box-sizing: border-box;
 }
 
 body {
     background-color: #EDEDED;
     font-family: 'Inter', sans-serif;
-    font-size: 1em;
+    font-size: em(16px);
     font-weight: 400;
+    color: $text;
+    margin: 0;
+}
+
+img {
+    max-width: 100%;
 }
 
 ul {
     padding: 0;
 
-
     li {
         list-style: none;
     }
+}
+
+.main-template {
+    display: flex;
+    position: relative;
+}
+
+.page-template {
+    flex-basis: 94%;
+    padding: 0 em(24px);
+}
+
+.bg-ash {
+    background-color: $ash;
+}
+
+main {
+    padding: 25px 0;
+}
+
+.container {
+    max-width: em(1536px);
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
 }
