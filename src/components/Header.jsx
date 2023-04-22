@@ -4,7 +4,7 @@ import helpIcon from '../images/icons/help.svg'
 import notificationIcon from '../images/icons/notification.svg'
 import calendarIcon from '../images/icons/calendar.svg'
 import userIcon from '../images/icons/user.svg'
-import CustomisablePopup from './CustomisablePopup'
+// import CustomisablePopup from './CustomisablePopup'
 
 export default function Header() {
     return (
@@ -14,7 +14,7 @@ export default function Header() {
                     <div className='logo'>
                         <img src={Logo} alt="logo" />
                     </div>
-                    {/* <form className="search">
+                    <form className="search">
                         <input type="search" placeholder='Search' />
                         <button><img src={searchIcon} alt="search" /></button>
                     </form>
@@ -31,7 +31,7 @@ export default function Header() {
                         <div className="utilities-user utilities-option">
                             <img src={userIcon} alt="user" />
                         </div>
-                    </div> */}
+                    </div>
                 </div>
             </div>
 

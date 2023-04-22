@@ -2,6 +2,7 @@
 
 * {
     box-sizing: border-box;
+    margin: 0;
 }
 
 body {
@@ -15,6 +16,7 @@ body {
 
 img {
     max-width: 100%;
+    vertical-align: middle;
 }
 
 ul {
@@ -32,7 +34,7 @@ ul {
 
 .page-template {
     flex-basis: 94%;
-    padding: 0 em(24px);
+    padding: 0 0 0 em(24px);
 }
 
 .bg-ash {

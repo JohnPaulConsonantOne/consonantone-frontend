@@ -1,24 +1,24 @@
 h1,
 .title-size {
-    font-size: em(30px);
+    font-size: $size1;
     line-height: em(36px);
 }
 
 h2 {
-    font-size: em(24px);
+    font-size: $size2;
     line-height: em(29px);
 }
 
 h6 {
-    font-size: em(14px);
+    font-size: $size4;
     line-height: em(17px);
 }
 
 p {
-    font-size: em(16px);
+    font-size: $size3;
 
     &.mini-text {
-        font-size: em(14px);
+        font-size: $size4;
         line-height: em(17px);
     }
 }

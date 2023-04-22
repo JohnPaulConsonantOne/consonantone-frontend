@@ -1,0 +1,16 @@
+.basic-details {
+    display: flex;
+    gap: 24px;
+    flex-wrap: wrap;
+
+    .card {
+        flex-basis: calc(100%/3 - 24px);
+        flex-grow: 1;
+
+        .wrap {
+            display: flex;
+            align-items: flex-end;
+            justify-content: space-between;
+        }
+    }
+}
